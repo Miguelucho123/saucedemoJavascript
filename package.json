@@ -1,0 +1,18 @@
+{
+  "name": "saucedemojavascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.4",
+    "@cypress/webpack-preprocessor": "^5.17.1",
+    "cucumber-html-reporter": "^7.1.1",
+    "cypress": "^12.17.3",
+    "webpack": "^5.88.2"
+  }
+}
