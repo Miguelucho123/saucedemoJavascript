@@ -2,20 +2,24 @@
 
 class LoginPage{
 
-    static openSauceDemo(){
-        cy.visit('https://automationteststore.com/');
+    static openStoreDemo(){
+        cy.visit('/');
     }
 
     static enterUserName(userName){
-        cy.get('#user-name').type(userName);
+        cy.get('#loginFrm_loginname').type(userName);
     }
 
     static enterPassword(password){
-        cy.get('#password').type(password);
+        cy.get('#loginFrm_password').type(password);
     }
 
     static clickOnLoginButton(){
-        cy.get('#login-button').click();
+        cy.get('button[title="Login"]').click();
+    }
+
+    static goToLoginForm(){
+        cy.get('#customer_menu_top').click();
     }
 
 }

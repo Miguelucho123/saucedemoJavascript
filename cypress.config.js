@@ -38,7 +38,7 @@ async function setupNodeEvents(on, config) {
 module.exports = defineConfig({
   e2e: {
     specPattern:"**/*.feature",
-    baseUrl: "https://www.saucedemo.com/",
+    baseUrl: "https://automationteststore.com/",
     setupNodeEvents
   },
 });
